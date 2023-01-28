@@ -6,6 +6,8 @@ class IdeasApi {
       process.env.NODE_ENV === 'production'
         ? '/api/ideas'
         : 'http://localhost:5000/api/ideas';
+
+    console.log(process.env.NODE_ENV);
   }
 
   getIdeas() {
