@@ -52,7 +52,7 @@ The production build will be put into the `public` folder, which is the Express 
 
 ### Environment Variables
 
-Rename `.env-example` to `.env` and add your MongoDB URI to the `.env` file
+Rename `.env-example` to `.env` and add your MongoDB URI to the `.env` file.
 
 ```
 MONGO_URI=your_mongodb_uri
